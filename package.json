@@ -1,0 +1,24 @@
+{
+  "name": "tapable-demo",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sync-basic": "node ./src/sync-hook.js",
+    "sync-bail": "node ./src/sync-bail-hook.js",
+    "sync-waterfall": "node ./src/sync-waterfall-hook.js",
+    "sync-loop": "node ./src/sync-loop-hook.js",
+    "asycn-parallel": "node ./src/async-parallel-hook.js",
+    "async-series": "node ./src/async-series-hook.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "tapable": "^2.2.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.2"
+  }
+}
