@@ -10,7 +10,8 @@
     "sync-waterfall": "node ./src/sync-waterfall-hook.js",
     "sync-loop": "node ./src/sync-loop-hook.js",
     "asycn-parallel": "node ./src/async-parallel-hook.js",
-    "async-series": "node ./src/async-series-hook.js"
+    "async-series": "node ./src/async-series-hook.js",
+    "promise": "node ./src/promise.js"
   },
   "keywords": [],
   "author": "",
